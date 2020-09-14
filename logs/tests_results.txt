@@ -1,7 +1,17 @@
-test_square (__main__.TestExercice) ... ok
+test_square (__main__.TestExercice) ... ERROR
 test_square_root (__main__.TestExercice) ... ok
 
+======================================================================
+ERROR: test_square (__main__.TestExercice)
 ----------------------------------------------------------------------
-Ran 2 tests in 0.000s
+Traceback (most recent call last):
+  File "test_exercice.py", line 17, in test_square
+    output_exo = list(map(exercice.square, self.numbers))
+  File "/home/runner/work/c01_ch3_exercice1-youssef137ch/c01_ch3_exercice1-youssef137ch/exercice.py", line 12, in square
+    return math.pow()
+TypeError: pow expected 2 arguments, got 0
 
-OK
+----------------------------------------------------------------------
+Ran 2 tests in 0.001s
+
+FAILED (errors=1)
