@@ -2,9 +2,11 @@
 # -*- coding: utf-8 -*-
 
 
+import math as m
+
 def square_root(number: int) -> float:
     # TODO completer la fonction
-    return math.sqrt(number)
+    return m.sqrt(number)
 
 
 def square(number: int) -> int:
