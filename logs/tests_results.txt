@@ -1,7 +1,21 @@
-test_square (__main__.TestExercice) ... ok
+test_square (__main__.TestExercice) ... FAIL
 test_square_root (__main__.TestExercice) ... ok
 
+======================================================================
+FAIL: test_square (__main__.TestExercice)
 ----------------------------------------------------------------------
-Ran 2 tests in 0.000s
+Traceback (most recent call last):
+  File "test_exercice.py", line 23, in test_square
+    'Failed to calculate squares'
+AssertionError: Lists differ: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 1[337 chars], 99] != [0, 1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 1[501 chars]9801]
 
-OK
+First differing element 2:
+2
+4
+
+Diff is 1484 characters long. Set self.maxDiff to None to see it. : Failed to calculate squares
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.005s
+
+FAILED (failures=1)
