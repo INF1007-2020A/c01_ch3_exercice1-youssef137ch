@@ -1,7 +1,5 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-
-
 import math as m
 
 def square_root(number: int) -> float:
